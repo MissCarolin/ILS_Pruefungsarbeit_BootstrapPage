@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <div id="holder">
 
     <body>
         <header>
-            <h1 class="name-restaurant">Vino's</h1>
-            <p class="restaurant-header">Restaurant</p>
-            <nav>
-                <ul>
+            <nav class="navbar navbar-toggleable-md navbar-inverse">
+                <img src="images/logo-vinos.png" alt="Logo Vino's Restaurant">
+
+                <ul class="navbar-nav ml-auto">
                     <li><a href="#">Start</a></li>
                     <li><a href="#">Restaurant</a></li>
                     <li><a href="#">Galerie</a></li>
@@ -22,17 +23,46 @@
                     <li><a href="#">Impressum</a></li>
                 </ul>
             </nav>
-        </header>
-        <main>
             <div class="container">
                 <div class="jumbotron">
                     <h1 class="display-3">Vinos Restaurant</h1>
                     <p class="lead">Vino steht für Wein, vorzügliche Küche in einem behaglichen Ambiente unmittelbar an einem kleinen Kanal von Venedig. Viele Gäste besuchen uns schon seit Jahren. Alleine, mit Freunden oder Geschäftspartnern.</p>
                     <p class="lead">
-                        <a class="btn btn-primary" href="speisekarte.html" role="button">Speisekarte</a>
+                        <a class="btn btn-lg btn-light" href="speisekarte.html" role="button">Speisekarte</a>
                     </p>
                 </div>
             </div>
+        </header>
+        <main>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-8">
+                            <p id="teaser-article-startseite">Unter dem Motto "Klein, aber fein!" führen wir seit 15 Jahren dieses kleine Restaurant und haben damit einen lang gehegten Traum verwirklicht.</p>
+                            <img src="images/Startseite-Pasta.jpg" alt="Pasta" class="rounded float-sm-left d-block mr-3 mt-1 img-fluid">
+                            <p id="article-startseite">Lassen Sie sich verwöhnen mit Spezialitäten der echten italienischen Küche, frisch und abwechslungsreich zubreitet. Aus diesem Grund wechselt unser Speiseangebot nicht nur saisonal. Fisch und Meeresfrüchte kommen fangfrisch
+                                auf den Tisch! Dafür garantiert der berühmte Fischmarkt an der Rialto-Brücke. Für unsere Gäste ist das Beste gerade gut genug. Vielleicht haben Sie ja schon mal Lust auf einen kleinen Vorgeschmack? Dann schauen Sie doch
+                                gleich mal nach, was unsere Speisekarte zu bieten hat. Für weitere Informationen nutzen Sie bitte die unten angegebenen Kontaktdaten. Reservierungen nehmen wir ausschließlich telefonisch entgegen.</p>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="jumbotron">
+                                <p class="display-6">Unsere Öffnungszeiten</p>
+                                <p class="inhalt-öffnungszeiten"> Dienstag - Sonntag <br> 11.00 - 14.30 Uhr und <br> 18.00 - 24.00 Uhr <br> Mittwoch <br> 18.30 - 24.00 Uhr <br> (Unsere Küche ist bis 22:30 Uhr geöffnet) <br> Wir freuen und auf Ihren Besuch</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer row p-3 mt-5 mb-5 mr-0 ml-0">
+                    <div class="description-footer text-left">
+                        <p id="footer-name">Restaurant Vino's, Venedig/Italien</p>
+                        <p id="footer-adresse">Calle Querini</p>
+                    </div>
+                    <div class="contact-footer text-right">
+                        <p id="telefon">Tel. +39 041 1234 567 89</p>
+                        <p id="email">mustermann@vinos-restaurant.de</p>
+                    </div>
+                </div>
+            </section>
         </main>
     </body>
 </div>
