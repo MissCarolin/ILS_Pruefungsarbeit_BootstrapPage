@@ -1,0 +1,13 @@
+@import url("index.css");
+@import url("galerie.css");
+@import url("impressum.css");
+@import url("restaurant.css");
+@import url("speisekarte.css");
+
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
