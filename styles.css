@@ -3,11 +3,23 @@
 @import url("impressum.css");
 @import url("restaurant.css");
 @import url("speisekarte.css");
-
 html {
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
-*, ::before, ::after {
+*,
+ ::before,
+ ::after {
     box-sizing: inherit;
+}
+
+#holder {
+    width: 75%;
+    margin: 0 auto;
+}
+
+nav {
+    background: #414141;
 }
