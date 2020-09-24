@@ -9,6 +9,10 @@ html {
     margin: 0px;
 }
 
+body {
+    font-size: 13px;
+}
+
 *,
  ::before,
  ::after {
@@ -22,4 +26,26 @@ html {
 
 nav {
     background: #414141;
+}
+
+.footer {
+    border: 1px solid #f7ab46;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 519px) {
+    .vinos-img {
+        width: 215px;
+    }
+}
+
+@media (max-width: 443px) {
+    .vinos-img {
+        width: 150px;
+    }
 }
