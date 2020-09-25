@@ -11,6 +11,7 @@ html {
 
 body {
     font-size: 14px;
+    overflow-y: scroll;
 }
 
 *,
@@ -25,6 +26,14 @@ body {
 
 nav {
     background: #414141;
+}
+
+.restaurant-name {
+    font-weight: 200;
+}
+
+.copyright {
+    font-size: 9px;
 }
 
 .footer {
