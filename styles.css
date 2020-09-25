@@ -1,8 +1,3 @@
-@import url("index.css");
-@import url("galerie.css");
-@import url("impressum.css");
-@import url("restaurant.css");
-@import url("speisekarte.css");
 html {
     box-sizing: border-box;
     padding: 0px;
@@ -26,6 +21,10 @@ body {
 
 nav {
     background: #414141;
+}
+
+.btn.btn-lg.btn-light {
+    border: 1px solid lightgray
 }
 
 .restaurant-name {
